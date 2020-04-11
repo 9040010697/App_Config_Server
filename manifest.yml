@@ -1,0 +1,7 @@
+---
+applications:
+- name: dj-config-server
+  instances: 1
+  memory: 1G
+  path: target/AppConfigServer-0.0.1-SNAPSHOT.jar
+  domain: cfapps.io
